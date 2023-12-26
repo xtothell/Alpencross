@@ -1,0 +1,92 @@
+body { 
+    font-family:Verdana,Sans-serif; 
+    margin:0;
+    padding:0;
+    background-image: url(bilder/pic.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+.linktable {
+    font:12px Verdana,sans-serif;
+    }
+	
+/* Aktiven Tag rot hinterlegen
+div#al {
+    font:red;
+    background: url(bilder/pic-rot.jpg) 0 0 no-repeat fixed;}
+*/
+
+div#content { 
+   background-color: #FFFFFF;
+   /*background-image: url(bilder/pic-tr.jpg);
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-attachment: fixed; */
+   position: absolute; 
+   top: 26px; 
+   left:175px; 
+   right: 25px;
+   padding: 10px; 
+   border: dotted black 1px;
+   }
+   
+html>body #content {
+	background-image: url(bilder/pic-tr.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: none;
+    }
+
+   
+div#links {
+    background-color: #FFFFFF;
+    /*background-image: url(bilder/pic-tr.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    position: relative; 
+    top: 52px; 
+    left: 25px;  
+    width: 125px; /*height: 700px; */   
+    font: 16px Verdana, sans-serif;
+    display: block; 
+    text-align: center; 
+    padding: 5px 10px;
+    /*margin: 0 0 2px; 
+    border-width: 0;*/
+    border: dotted black 1px; 
+    }
+
+html>body #links {
+	background-image: url(bilder/pic-tr.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed;
+    padding:0;
+    border: none;
+    }
+    
+a:link {
+    color:black;
+    border-bottom:1px dotted black;
+    text-decoration:none;
+    } 
+a:active {
+    color:black;
+    border-bottom:1px dotted black;
+    text-decoration:none;
+    }
+a:visited {
+    color:black;
+    border-bottom:1px dotted black;
+    text-decoration:none;
+    }
+a:hover {
+    color:black;
+    border-bottom:1px solid black;
+    /*text-decoration:underline;*/
+    }
