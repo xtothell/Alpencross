@@ -6,6 +6,7 @@ body {
     background-position: 0 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     }
     
 .klein{
@@ -26,11 +27,17 @@ div#content {
    border: dotted black 1px; 
    }
    
+img {
+    max-width: 100%;
+    height: auto;
+}
+   
 html>body #content {
 	background-image: url(bilder/test.jpg);
     background-position: 0 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     border: none;
     }
 
@@ -58,6 +65,7 @@ html>body #links {
     background-position: 0 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     position: fixed;
     padding:0;
     border: none;
